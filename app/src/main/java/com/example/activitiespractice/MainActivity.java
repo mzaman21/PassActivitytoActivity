@@ -25,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent secondActivity= new Intent(MainActivity.this,MynewActivity.class);
-
+                secondActivity.putExtra("Student_Name",S_name);
+                secondActivity.putExtra("Student_Roll",S_rollNo);
             }
         });
 
