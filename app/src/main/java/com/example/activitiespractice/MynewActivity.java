@@ -17,8 +17,10 @@ public class MynewActivity extends AppCompatActivity {
         Name= findViewById(R.id.Sname);
         RollNo=findViewById(R.id.Srollno);
 
+        StudentName = getIntent().getStringExtra("Student_Name");
+        StudentRollNo = getIntent().getStringExtra("Student_Roll");
 
-
-
+        Name.setText(StudentName);
+        RollNo.setText(StudentRollNo);
     }
 }
