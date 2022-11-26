@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">ActivitiesPractice</string>
     <string name="Nextbtntxt">Next</string>
+    <string name="SName">Name</string>
+    <string name="SRollNO">Roll No</string>
+
 </resources>
