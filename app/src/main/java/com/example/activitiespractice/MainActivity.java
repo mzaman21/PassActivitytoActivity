@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent secondActivity= new Intent(MainActivity.this,MynewActivity.class);
                 secondActivity.putExtra("Student_Name",S_name);
                 secondActivity.putExtra("Student_Roll",S_rollNo);
+                MainActivity.this.startActivity(secondActivity);
             }
         });
 
